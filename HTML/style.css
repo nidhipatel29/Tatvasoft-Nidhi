@@ -1,0 +1,863 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.body{
+  width: 1560px;
+}
+.Landing-Page {
+  top: 0px;
+  left: 0px;
+  width: 1560px;
+  height: 930px;
+  background: #525252 no-repeat;
+  opacity: 0.8;
+  background-image:url("img/Landing-Page-background-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav{
+    width: 1560px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+img.white_logo_transparent_background {
+  width: 175px;
+  height: 130px;
+  margin: 10px 0px 190px 17px;
+  object-fit: contain;
+}
+
+.menu{
+    width: 100%;
+    margin-top: 10px;
+    height: 130px;
+}
+
+ul{
+  float: left;
+}
+
+ul#list li{
+    display: inline;
+    float: right;
+    height: 130px;
+    align-items: center;  
+}
+
+.Rounded-Rectangle-5-copy-1 {
+    width: 161px;
+    height: 40px;
+    margin: 33px 20px 0px 428px;
+    border-radius: 20px;
+    border: solid 1px white;
+    text-align: center;
+    padding:7px;
+    background-color: transparent;
+  }
+  .Rounded-Rectangle-5-copy-2 {
+    width: 100%;
+    height: 40px;
+    margin: 33px 9px 0px 10px;
+    padding:7px;
+    background-color: transparent;
+  }
+  .Rounded-Rectangle-5-copy-3 {
+    width: 97px;
+    height: 40px;
+    margin: 33px 10px 0px 1px;
+    border-radius: 20px;
+    border: solid 1px white;
+    text-align: center;
+    padding:7px;
+    background-color: transparent;
+  }
+  .Rounded-Rectangle-5-copy-4 {
+    width: 161px;
+    height: 40px;
+    margin: 33px 10px 0px 1px;
+    border-radius: 20px;
+    border: solid 1px white;
+    text-align: center;
+    padding:7px;
+    background-color: transparent;
+  }
+  .Rounded-Rectangle-5-copy-5 {
+    width: 25px;
+    height: 16px;
+    margin: 43px 5px 0px 10px;
+  }
+
+  .Rounded-Rectangle-5-copy-6 {
+    width: 12px;
+    height: 7px;
+    margin: 40px 5px 0px 10px;
+  }
+  .Book-a-Cleaner-Prices-Our-Guarantee-B {
+    width: 100%; 
+    height: 20px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+  .Rounded-Rectangle-5 {
+    width: 97px;
+    height: 40px;
+    margin: 0px 11px 0px 20px; 
+    padding: 12px 29px 13px;
+    border-radius: 20px;
+    border: solid 1px var(--white-50);
+    background-color: #fff;
+  }
+
+  .Login {
+    width: 39px;
+    height: 15px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #fff;
+  } 
+  .Rounded-Rectangle-5-copy {
+    width: 161px;
+    height: 40px;
+    padding: 0x 18px 0px 22px;
+    border-radius: 20px;
+    border: solid 1px var(--white-50);
+    background-color: #fff;
+  }
+  .Become-a-Helper {
+    width: 121px;
+    height: 15px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #fff;
+  } 
+
+
+.Lorem-ipsum-text {
+  width: 388px;
+  height: 46px;
+  margin: 190px 120px 22px 41px;
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.Forma-1-copy-10 {
+  width: 13px;
+  height: 10px;
+  margin: 10px 0px 5px 42px;
+  object-fit: contain;
+  /* background-color: #fff; */
+}
+
+.Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing {
+  width: 362px;
+  height: 15px;
+  margin: 24px 0px 0px 5px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.Rounded-Rectangle-6-copy-5 {
+  width: 225px;
+  height: 54px;
+  margin: 0px auto;
+  padding: 15px 27px;
+  border-radius: 27px;
+  border: solid 1px #fff;
+  background-color: #006072;
+}
+
+.Lets-Book-a-Cleaner-copy {
+  width: 161px;
+  height: 14px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+}
+
+.icon-box{
+  margin-top: 165px;
+}
+
+img.Forma-1-copy {
+  width: 52px;
+  height: 55px;
+  margin: 0px 79.01px 0px 312px;
+  object-fit: contain;
+  background-color: var(--white);
+}
+img.step-arrow1 {
+  width: 85px;
+  height: 23px;
+  margin: 21px 0px 21px 0px;
+  object-fit: contain;
+  background-color: var(--white);
+}
+img.Group-22{
+  width: 45px;
+  height: 44px;
+  margin: 0px 82px 0px 83px;
+  object-fit: contain;
+  background-color: var(--white);
+}
+img.step-arrow1-copy {
+  width: 85px;
+  height: 23px;
+  margin: 21px 0px 21px 0px;
+  object-fit: contain;
+  background-color: var(--white);
+}
+.step-3{
+  width: 54px;
+  height: 54px;
+  margin: 0px 69px 0px 77px;
+  object-fit: contain;
+  background-color: var(--white);
+}
+
+.step-4{
+  width: 61.96px;
+  height: 63px;
+  margin: 0px 0px 0px 67px;
+  object-fit: contain;
+  background-color: var(--white);
+}
+.Why-Helperland {
+  width: 300px;
+  height: 40px;
+  margin: 79px 0px 82.5px 0px;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4f4f4f;
+}
+
+.dedicated-helper {
+  width: 319.5px;
+  height: 319.5px;
+  margin: 0px 35px;
+}
+
+img.Group-21 {
+  width: 320px;
+  height: 320px;
+  padding: 0.5px 0 0 0.5px;
+  object-fit: contain;
+}
+.online-Payment {
+  width: 320px;
+  height: 320px;
+  margin: 0px 35px;
+}
+img.Group-23 {
+  width: 320px;
+  height: 320px;
+  object-fit: contain;
+}
+.customer-service {
+  width: 320px;
+  height: 319.5px;
+  margin: 0px 35px;
+}
+img.Group-24 {
+  width: 320px;
+  height: 320px;
+  padding: 0 0 0.5px;
+  object-fit: contain;
+}
+
+.tagfont1{
+  display: inline-block;
+  margin-left: 240px;
+  width: 178px;
+  height: 24px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.tagfont2{
+  margin-left: 147px;
+  display: inline-block;
+  width: 142px;
+  height: 24px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.tagfont3{
+  margin-left: 135px;
+  display: inline-block;
+  width: 170px;
+  height: 24px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+
+.tagfont4{
+  margin-left: 115px;
+  display: inline-block;
+  width: 198px;
+  height: 24px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+#downlogo{
+  margin-left: 769px;
+}
+
+
+.Experience-Vetted-Professionals {
+  width: 320px;
+  height: auto;
+  margin: 32.5px 35px 0px 35px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #565656;
+}
+.Secure-Online-Payment {
+  width: 325px;
+  height: 37px;
+  display: inline;
+  margin: 46.5px 35px 0px 35px;;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #565656;
+}
+.Dedicated-Customer-Service {
+  width: 320px;
+  height: auto;
+  margin: 32.5px 35px 0px 35px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #565656;
+}
+
+.dominate-the-industry-in-scale-and-scope-with-an-adaptable-ext {
+  width: 324.65px;
+  height: 89.67px;
+  margin-right: 98px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  text-align: center;
+  color: #565656;
+}
+.Payment-is-processed-securely-online-Customers-pay-safely-onli {
+  width: 300px;
+  height: 64px;
+  margin-right: 76px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  text-align: center;
+  color: #565656;
+}
+.to-our-customers-and-are-guided-in-all-we-do-by-their-needs-Th {
+  width: 345px;
+  height: 115px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  text-align: center;
+  color: #565656;
+}
+
+.Lorem-ipsum-dolor-sit-amet-consectetur {
+  width: 378px;
+  height: 72px;
+  font-family: Roboto;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--greyish-brown);
+}
+.Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-Donec {
+  display: inline-block;
+  width: 641.86PX;
+  height: 241PX;
+  margin-top: 7.5px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--greyish-brown);
+}
+.forCon{
+  margin-top: 36px;
+ margin-left: 199px;
+ display: flex;
+ flex-direction: column;
+ ;
+}
+.innerblock{
+  display: flex;
+  flex-direction: row;
+}
+.Our-Blog {
+  width: 156px;
+  height: 48px;
+  margin-left: 704px;
+  font-family: Roboto;
+  font-size: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--greyish-brown);
+}
+
+.box{
+  width: 1560px;
+  display: flex;
+  justify-content: center;
+}
+img.Group-28 {
+  width: 357px;
+  height: 164px;
+  object-fit: contain;
+}
+
+.Lorem-ipsum-dolor-sit-amet {
+  width: 320.73px;
+  height: auto;
+  display: inline-block;
+  margin: 16px 0px 0px 19.11px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3d4046;
+}
+.January-28-2019 {
+  width: 120px;
+  height: 12px;
+  margin-left: 19px;
+  display: block;
+  margin: 7px 23px 5px 19px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a3a3a3;
+}
+.Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-Sed-fe {
+  width: 288px;
+  height: 82px;
+  margin: 10px 0px 0px 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #565656;
+}
+
+.Read-the-Post {
+  display: inline;
+  width: 111px;
+  height: 21px;
+  margin: 0px 11px 0 19px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--greyish-brown);
+}
+.Shape-2 {
+  display: inline-block;
+  width: 29px;
+  height: 10px;
+  background-color: var(--greyish-brown);
+}
+
+.content3 {
+  width: 1560px;
+  height: 100%;
+  padding: 63px 0px 40.66px 63px;
+  margin-left: 0px;
+  background-color:#f4f5f8;
+}
+.What-Our-Customers-Say {
+  width: 1560px;
+  height: 38px;
+  margin: 53px 555px 59px 556px;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal; 
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--greyish-brown);
+}
+.Rounded-Rectangle-506-copy {
+  /* display: inline-block; */
+  border-left: 3px solid blue;
+  width: 357px;
+  height: 370px;
+  margin: 59px 43px 0px 201px;
+  border-radius: 4px;
+  box-shadow: 0 0 30px 0 #e4ebf0;
+  background-color:white;
+}
+.Rounded-Rectangle-506-copy1 {
+  /* display: inline-block; */
+  width: 357px;
+  height: 370px;
+  margin: 59px 43px 0px 0px;
+  border-radius: 4px;
+  box-shadow: 0 0 30px 0 #e4ebf0;
+  background-color:white;
+}
+.Rounded-Rectangle-506-copy2{
+  /* display: inline-block; */
+  width: 357px;
+  height: 370px;
+  margin: 59px 201px 0px 0px;
+  border-radius: 4px;
+  box-shadow: 0 0 30px 0 #e4ebf0;
+  background-color:white;
+}
+img.Group-31 {
+  width: 70px;
+  height: 70px;
+  margin: 43px 18px 0px 38px;
+  padding: 4px 0 0;
+  object-fit: contain;
+  display: inline-block;}
+.Lary-Watson {
+  width: 120px;
+  height: 18px;
+  margin: 55px 0px 5px 17.34px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--greyish-brown);
+}
+.Manchester {
+  width: 74px;
+  height: 16px;
+  margin-left: 17.34px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: right;
+  color: #8e8e8e;
+}
+.Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-Sed-fe1 {
+  width: 295px;
+  height: 180px;
+  margin: 25px 0px 0px 39px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #565656;
+}
+.Read-More {
+  display: inline;
+  width: 85px;
+  height: 14px;
+  margin: 0px 1px 37px 37px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--greyish-brown-three);
+}
+.contact{
+  width: 1560px;
+  background-color:#f4f5f8;
+}
+.circle{
+  height: 48px;
+  width: 48px;
+  border-radius: 48px;
+  background-color: #525252;
+  margin:15px 0px 0px 70px;
+}
+.forma1{
+  margin:18px 14px 20.02px 14.97px;
+  width: 19.03px;
+  height: 9.98px;
+}
+.GET-OUR-NEWSLETTER {
+  width: 200px;
+  height: 13px;
+  margin-left: 70px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #353548;
+}
+.Rounded-Rectangle-649 {
+  width: 233px;
+  height: 40px;
+  margin: 20px 11px 0px 56px;
+  padding: 5px 0px 10px 22px;
+  border-radius: 20px;
+  border: solid 1px #565656;
+  background-color:#f4f5f8;
+}
+.Your-Email {
+  width: 80px;
+  height: 10px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--greyish-brown-three);
+}
+.Rounded-Rectangle-649 {
+  width: 233px;
+  height: 40px;
+  margin: 20px 11px 53px 0px;
+  padding: 5px 21px 16px 23px;
+  border-radius: 20px;
+  background-color: transparent;
+}
+.Rounded-Rectangle-649-copy {
+  width: 88px;
+  height: 40px;
+  color: white;
+  margin: 20px 0px 0px 0px;
+  padding: 5px 21px 16px 23px;
+  border-radius: 20px;
+  background-color: #ff7b6d;
+}
+
+.Submit {
+  width: 44px;
+  height: 11px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--white);
+}
+
+.Rectangle-12 {
+  width: 1560px;
+  height: auto;
+  background-color: #111;
+}
+
+img.white_logo_transparent_background-copy-4 {
+  width: 106px;
+  height: 78px;
+  display: inline;
+  margin: 20px 254px 20px 115px;
+  object-fit: contain;
+}
+
+.Home-About-Testimonials-FAQs-In {
+  width: 581.5px;
+  height: 43.67px;
+  display: inline-block;
+  margin: 42.5px 0px 15px 0px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f1f1f1;
+}
+.footerlogo1{
+  width: 20px;
+  height: 20px;
+  margin:45px 0px 0px 346.5px;
+}
+.footerlogo2{
+  width: 20px;
+  height: 20px;
+  margin:45px 0px 0px 3px;
+}
+
+.Rectangle-12-copy {
+  width: 1560px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  opacity: 0.8;
+  background-color: #292929;
+}
+.-Helperland-All-rights-reserved-Terms-and-Conditions {
+  width: 779px;
+  height: 35px;
+  display: inline-block;
+  margin: 23.5px 0px 24px 390px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9ba0a3;
+}
+
+.-Helperland-All-rights-reserved-Terms-and-Conditions .text-style-1 {
+  color: #737381;
+}
+.footerbtn{
+width: 99px;
+height: 40px;
+margin: 12px 0px 0px 276px;
+background: #EED507 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+}
+.btnfont{
+font-family: Roboto;
+width: 25px;
+height: 19px;
+margin: 10px 0px 0px 37px;
+text-align: left;
+letter-spacing: 0px;
+color: #4F4F4F;
+opacity: 1;
+}
