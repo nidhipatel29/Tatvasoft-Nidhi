@@ -1,0 +1,349 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+.body{
+    width: 1560px;
+  }
+.nav{
+    width: 1560px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    background: #525252 no-repeat;
+}
+.logo{
+    width: 74px;
+    height: 54px;
+    margin: 6px 0px 4px 15px;
+    display: inline-block;
+}
+.menu{
+    width:1471px;
+    height: 54px;
+    margin: 6px 15px 4px 0px;
+}
+.ul{
+  float: left;
+}
+ul#list li{
+    display: inline;
+    float: right;
+    height: 54px;
+    align-items: center;  
+}
+.Rounded-Rectangle-5-copy-1 {
+    width: 111px;
+    height: 40px;
+    margin: 6px 10px 0px 601px;
+    border-radius: 20px;
+    border: solid 1px white;
+    text-align: center;
+    padding:7px;
+    background-color: transparent;
+  }
+  .Rounded-Rectangle-5-copy-2 {
+    width: 100%;
+    height: 40px;
+    margin: 6px 9px 0px 10px;
+    padding:7px;
+    background-color: transparent;
+  }
+  .Rounded-Rectangle-5-copy-3 {
+    width: 97px;
+    height: 40px;
+    margin: 6px 10px 0px 1px;
+    border-radius: 20px;
+    border: solid 1px white;
+    text-align: center;
+    padding:7px;
+    background-color: transparent;
+  }
+  .Rounded-Rectangle-5-copy-4 {
+    width: 161px;
+    height: 40px;
+    margin: 6px 10px 0px 1px;
+    border-radius: 20px;
+    border: solid 1px white;
+    text-align: center;
+    padding:7px;
+    background-color: transparent;
+  }
+  .Book-a-Cleaner-Prices-Our-Guarantee-B {
+    width: 100%; 
+    height: 20px;
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+  .border{
+    border: solid 1px white;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .clip{
+      width: 1560px;
+      height: 370px;
+  }
+  .FAQStxt{
+      margin: 32px 0px 0px 737.85px;
+      width: 84px;
+      
+      height: 43px;
+     
+      text-align: center;
+      letter-spacing: 0px;
+      color: #4F4F4F;
+      opacity: 1;
+  }
+  .FAQsfont{
+      font-family: roboto;
+      font-size: 35.95px;
+      font-family: Roboto-Medium;
+  }
+  .forma1{
+      width: 100%;
+      height: 25px;
+      margin-top: 9px;
+      display: flex;
+      flex-direction: row;
+  }
+.Rectangle-5-copy-5{
+    margin: 12.5px 0px 0px 696px;
+    width: 62px;
+    height: 1px;
+    background: #CCCCCC 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.separator{
+    width: 24px;
+    height: 25px;
+    margin-left: 9px;
+}
+.Rectangle-5-copy-4{
+    margin: 12.5px 0px 0px 9px;
+    width: 62px;
+    height: 1px;
+    background: #CCCCCC 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.content1{
+    width: 931px;
+    height: 847px;
+    margin: 34px 0px 0px 308.01px;
+}
+.content1-txt1{
+    width: 498px;
+    height: 48px;
+    font-size: 18px;
+    display: block;
+    font-family: roboto;
+    margin: 0px 207px 0px 226px;
+    letter-spacing: 0px;
+    color: #646464;
+    opacity: 1;
+}
+/* .content1-txt1 span{
+ margin-left: 45px;
+} */
+.scrollbar{
+  width: 100%;
+  height: 76px;
+  margin: 28px 0px 28px 0px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 3px solid #1D7A8C;
+}
+.scrollbar span{
+  width: 465.5px;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.content-txt-box{
+ display: flex;
+ flex-direction: row;
+}
+.text-arrow{
+  display: inline-block;
+  width: 22px;
+  height: 22.01px;
+  /* margin-right: 15px; */
+}
+.list2 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.list2 li {
+    width: 920px;
+    height: 22px;
+    font-size: 16px;
+    text-align: left;
+    color: #646464;
+    opacity: 1;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+.img1 {
+  background: url('img/down-arrow.png') no-repeat left top;
+
+}
+.img2 {
+  background: url('img/right-arrow.png') no-repeat left top;
+
+}
+.content1-txt3{
+    width: 894px;
+    height: 182.33px;
+    margin:18px 0px 0px 36.99px;
+    text-align: left;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #646464;
+    opacity: 1;
+}
+.gap{
+  margin-top:40px;
+}
+.content2{
+    width: 1560px;
+    height: 324.99px;
+    margin-top: 55.01px;
+    display: inline-block;
+}
+.GET-OUR-NEWSLETTER {
+    display: inline;
+    width: 190px;
+    height: 21px;
+    font-weight: bold;
+    margin-left: 685.2px;
+    font-family: Roboto;
+    font-size: 17.99px;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 1;
+    color: #353548;
+  }
+  
+.Rounded-Rectangle-649 {
+    width: 233px;
+    height: 40px;
+    margin: 15.99px 11px 53px 614px;
+    /* padding: 5px 0px 10px 22px; */
+    background: #F4F5F8 0% 0% no-repeat padding-box;
+    border: 1px solid #565656;
+    border-radius: 20px;
+    opacity: 1;
+  }
+  .Your-Email {
+    width: 80px;
+    margin: 11px 0px 13px 22.12px ;
+    font-size: 16px;
+    text-align: left;
+    display: flex;
+    font-family: Roboto;
+    justify-content: center;
+    letter-spacing: 0px;
+    color: #565656;
+    opacity: 1;
+  }
+  .Rounded-Rectangle-649-copy {
+    width: 88px;
+    height: 40px;
+    color: white;
+    margin: 15.99px 0px 0px 0px;
+
+    border-radius: 20px;
+    background-color: #ff7b6d;
+  }
+  
+  .Submit {
+    width: 44px;
+    height: 16px;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 14px;
+    margin: 11px 20px 13px 23px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  .Rectangle-12{
+      width: 100%;
+      height: 195px;
+      display: flex;
+      flex-direction: column;
+      background: #111111 0% 0% no-repeat padding-box;
+      opacity: 1;
+  }
+  .white_logo_transparent_background-copy-4{
+    width: 120px;
+    height: 92px;
+    margin: 20px 0px 0px 115px;
+  }
+  .Home-About-Testimonials-FAQs-In{
+    width: 581.5px;
+    height: 43.67px;
+    margin: 62.5px 0px 0px 254px;
+    display: flex;
+    flex-direction: row;
+  }
+  .Home-About-Testimonials-FAQs-In-txt{
+    width: 100%;
+    font-size: 13.99px;
+    color: white;
+    text-align: start;
+    font-family: roboto;
+    margin-right: 51px;
+  }
+  .footerlogo1{
+    width: 9.01px;
+    height: 18.02px;
+    margin:60.99px 0px 0px 317.5px;
+  }
+  .footerlogo2{
+    width: 20px;
+    height: 20px;
+    margin: 61px 0px 0px 19.99px;
+  }
+  .-Helperland-All-rights-reserved-Terms-and-Conditions {
+    width: 779px;
+    height: 35px;
+    display: inline-block;
+    margin: 25px 0px 24px 536px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9ba0a3;
+  }
+  
+  .-Helperland-All-rights-reserved-Terms-and-Conditions .text-style-1 {
+    color: #737381;
+  }
+  #hr1{
+    margin-top: 19px; 
+    margin-left: 120px;
+    width: 1320px;
+    height: 1px; 
+    color: #424242;
+    background: #424242 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+      
+  }
