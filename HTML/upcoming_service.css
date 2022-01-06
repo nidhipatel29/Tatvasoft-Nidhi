@@ -1,0 +1,205 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /****************************** Header css START ********************************/
+.nav{
+    width: 1560px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    background: #525252 no-repeat;
+}
+.logo{
+    width: 74px;
+    height: 54px;
+    margin: 6px 0px 4px 15px;
+    display: inline-block;
+}
+.menu{
+    width:100%;
+    height: 54px;
+    margin: 6px 0px 4px 0px;
+}
+.a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#list {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    
+  }
+  
+#list li {
+   
+    float: right;
+    margin:15px 41px 0px 0px;
+  }
+  
+#list li a {
+    /* padding: 41px; */
+    display: block;
+    color: #FFFF;
+    size: 17px;
+    text-decoration: none;
+  }
+  .icon{
+      padding: 0px;
+      padding-left: 30px;
+      margin-top: -10px;
+      border-left: 1px solid white;
+  }
+
+/****************************** Header css END ********************************/
+.rectangle_622{
+    width: 100%;
+    height: 119.01px;
+    background-color: #F9F9F9;
+    padding: 38.42px 0px 43.59px 660.53px;
+}
+.rectangle-622 span{
+    font-size: 30px;
+    color: #4F4F4F;
+}
+.tbl-info{
+    width: 80%;
+    height: 712px;
+    margin-top: 31px;
+    margin-left: 210px;
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    width:262px;
+    height: 712px;
+    background-color: #1D7A8C;
+    margin-right: 31px;
+}
+.sidebar nav ul{
+    width: 100%;
+    height: 100%;
+}
+
+.menu_item{
+    border-bottom: 1px solid #AAA;
+}
+.menu_links{
+    display: inline-block;
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+table, th, td {
+    border-collapse: collapse;
+    color:#646464;
+}
+
+tr{
+    border: 3px solid  rgba(200, 200, 200, 0.5);
+}
+#serviceTable{
+    width:845px;
+}
+th,td{
+    padding: 14px 16px;
+    font-size: 16px;
+    text-align: left;
+}
+th{
+    color:#646464;
+}
+.cancel_btn{
+  border-radius: 17px;
+  background-color: #ff6b6b;
+  width: 80px;
+  height: 34px;
+}
+   /* footer css
+    */
+    .content2{
+        width: 1560px;
+        height: 324.99px;
+        margin-top: 16px;
+        display: inline-block;
+      }
+    .Rectangle-12{
+        width: 100%;
+        height: 195px;
+        display: flex;
+        flex-direction: column;
+        background: #111111 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .white_logo_transparent_background-copy-4{
+      width: 120px;
+      height: 92px;
+      margin: 20px 0px 0px 115px;
+    }
+    .Home-About-Testimonials-FAQs-In{
+      width: 581.5px;
+      height: 43.67px;
+      margin: 62.5px 0px 0px 254px;
+      display: flex;
+      flex-direction: row;
+    }
+    .Home-About-Testimonials-FAQs-In-txt{
+      width: 100%;
+      font-size: 13.99px;
+      color: white;
+      text-align: start;
+      font-family: roboto;
+      margin-right: 51px;
+    }
+    .footerlogo1{
+      width: 9.01px;
+      height: 18.02px;
+      margin:60.99px 0px 0px 317.5px;
+    }
+    .footerlogo2{
+      width: 20px;
+      height: 20px;
+      margin: 61px 0px 0px 19.99px;
+    }
+    .-Helperland-All-rights-reserved-Terms-and-Conditions {
+      width: 779px;
+      height: 35px;
+      display: inline-block;
+      margin: 25px 0px 24px 536px;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-align: left;
+      color: #9ba0a3;
+    }
+    
+    .-Helperland-All-rights-reserved-Terms-and-Conditions .text-style-1 {
+      color: #737381;
+    }
+    #hr1{
+      margin-top: 19px; 
+      margin-left: 120px;
+      width: 1320px;
+      height: 1px; 
+      color: #424242;
+      background: #424242 0% 0% no-repeat padding-box;
+      opacity: 0.8;
+        
+    }
