@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
     <link href="upcoming_service.css" type="text/css" rel="stylesheet" />
     <title>Upcoming Service</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>    
+    <header>
         <div class="nav" style="display: flex;flex-direction: row;">
             <img src="img/logo-small.png" class="logo">
-                <div class="menu">
-                    <ul id="list">
-                        
-                        <li><a href="#" class="icon"><img src="img/admin-user.png"></a></li>
-                        <li><a href="#" class="icon"><img src="img/icon-notification.png"></a></li>
-                        <li><a href="#" >Contact</a></li>
-                        <li><a href="#" >Blog</a></li>
-                        <li><a href="#">Warranty</a></li>
-                        <li><a href="#" >Prices and services</a></li>
-                            
-                           
-                            
-                           
-                            
-                            
-                    </ul>
-                </div>
+            <div class="menu">
+                <ul id="list">
+
+                    <li><a href="#" class="icon"><img src="img/admin-user.png"></a></li>
+                    <li><a href="#" class="icon"><img src="img/icon-notification.png"></a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Warranty</a></li>
+                    <li><a href="#">Prices and services</a></li>
+
+
+
+
+
+
+                </ul>
+            </div>
         </div>
     </header>
     <div class="rectangle_622"><span>Welcome, <b>Sandip!</b></span></div>
@@ -36,84 +49,86 @@
         <div class="sidebar">
             <nav>
                 <ul style="list-style-type:  none;">
-                    <li  class="menu_item"><a href="#" class="menu_links"> Dashboard</a>
+                    <li class="menu_item"><a href="#" class="menu_links"> Dashboard</a>
                     </li>
-                    <li class="menu_item"><a href="#"  class="menu_links"> New Servie Requests</a>
+                    <li class="menu_item"><a href="#" class="menu_links"> New Servie Requests</a>
                     </li>
-                    <li class="menu_item" ><a href="#"  class="menu_links" > Upcoming services</a>
+                    <li class="menu_item"><a href="#" class="menu_links"> Upcoming services</a>
                     </li>
-                    <li class="menu_item"><a href="#"  class="menu_links"> Service Schedule</a>
+                    <li class="menu_item"><a href="#" class="menu_links"> Service Schedule</a>
                     </li>
-                    <li  class="menu_item"><a href="#"  class="menu_links"> Service History</a>
+                    <li class="menu_item"><a href="#" class="menu_links"> Service History</a>
                     </li>
-                    <li  class="menu_item"><a href="#"  class="menu_links"> My Ratings</a>
+                    <li class="menu_item"><a href="#" class="menu_links"> My Ratings</a>
                     </li>
-                    <li class="menu_item"><a href="#"  class="menu_links"> Block Customers</a>
+                    <li class="menu_item"><a href="#" class="menu_links"> Block Customers</a>
                     </li>
                 </ul>
             </nav>
         </div>
         <div class="service_tbl">
 
-            <table id="serviceTable">
-                <tr  style="background-color: #f9f9f9;" >
-                    <th width="16%" >
-                        Service ID&nbsp;<input type="image" src="img/sort.png">
-                    </th>
+            <table id="serviceTable" class="table-responsive">
+                <tr style="background-color: #f9f9f9;">
                     <th width="18%">
-                        Service Date&nbsp;<input type="image" src="img/sort.png">
+                        Service ID&nbsp;<input type="image"  class="img1" src="img/sort.png">
                     </th>
-                    <th width="30%">
-                        Customer Details&nbsp;<input type="image" src="img/sort.png">
+                    <th width="20%">
+                        Service Date&nbsp;<input type="image"  class="img1" src="img/sort.png">
+                    </th>
+                    <th width="32%">
+                        Customer Details&nbsp;<input type="image" class="img1"  src="img/sort.png">
                     </th>
                     <th width="16%">
-                        Distance&nbsp;<input type="image" src="img/sort.png">
+                        Distance&nbsp;<input type="image"  class="img1" src="img/sort.png">
                     </th>
-                    <th width="16%">
+                    <th width="14%">
                         Actions&nbsp;
                     </th>
                 </tr>
                 <tr>
                     <td>323436</td>
-                    <td><p><img src="img/calendar2.png" alt=""> 09/04/2018 </p> 
-                        <p class="mt-1"> <img src="img/layer-712.png" alt=""> 12:00 - 18:00</p></td>
                     <td>
-                      <p>David Bough</p>
-                      <p><img src="img/layer-719.png" alt="">
-                          Musterstrabe 5,12345 Bonn
-                     </p>
+                        <p class="m-0"><img class="img1" src="img/calendar2.png" alt="" > 09/04/2018 </p>
+                        <p class="m-0"><img  class="img1" src="img/layer-712.png" alt="" > 12:00 - 18:00</p>
+                    </td>
+                    <td>
+                        <p class="m-0">David Bough</p>
+                        <p class="m-0"><img class="img1" src="img/layer-719.png" alt="">
+                            Musterstrabe 5,12345 Bonn</p>
                     </td>
                     <td>15 km</td>
-                    <td><button class="cancel_btn"><p class="cancel-text">Cancel</p></button></td>
-                  </tr> 
-              </table>
+                    <td><button class="cancel_btn">Cancel</button></td>
+                </tr>
+            </table>
         </div>
-     </div>
-     <footer>
+    </div>
+    <footer>
         <div class="content2">
             <div class="Rectangle-12">
                 <div style="display: flex;flex-direction: row;">
-                    <img src="img/logo-large.png"
-                    class="white_logo_transparent_background-copy-4">
+                    <img src="img/logo-large.png" class="white_logo_transparent_background-copy-4">
                     <div class="Home-About-Testimonials-FAQs-In">
-                        <div class="Home-About-Testimonials-FAQs-In-txt"  >HOME </div>
-                        <div class="Home-About-Testimonials-FAQs-In-txt" > ABOUT</div>
-                        <div class="Home-About-Testimonials-FAQs-In-txt" >FAQS</div>
-                        <div class="Home-About-Testimonials-FAQs-In-txt" >INSURANCE</div>
-                        <div class="Home-About-Testimonials-FAQs-In-txt" > POLICY</div>
+                        <div class="Home-About-Testimonials-FAQs-In-txt">HOME </div>
+                        <div class="Home-About-Testimonials-FAQs-In-txt"> ABOUT</div>
+                        <div class="Home-About-Testimonials-FAQs-In-txt">FAQS</div>
+                        <div class="Home-About-Testimonials-FAQs-In-txt">INSURANCE</div>
+                        <div class="Home-About-Testimonials-FAQs-In-txt"> POLICY</div>
                         <div class="Home-About-Testimonials-FAQs-In-txt">IMPRESSUM</div>
                     </div>
                     <div class="footerlogo1"><img src="img/ic-facebook.png"></div>
                     <div class="footerlogo2"><img src="img/ic-instagram.png"></div>
                 </div>
-                <hr id="hr1"/>
+                <hr id="hr1" />
                 <div class="-Helperland-All-rights-reserved-Terms-and-Conditions">
-                    ©2018Helperland<span class="text-style-1">.</span>All rights reserved.Terms and Conditions  |  <span style="color: #6eabef;">Privacy Policy</span>
+                    ©2018Helperland<span class="text-style-1">.</span>All rights reserved.Terms and Conditions | <span
+                        style="color: #6eabef;">Privacy Policy</span>
                 </div>
             </div>
-            
+
         </div>
     </footer>
-    
+
 </body>
+
 </html>
