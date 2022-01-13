@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{  
+    box-sizing: border-box; 
+    color:#4F4F4F;margin: 0px;
+    padding: 0px; 
+    font-family: "Roboto",sans-serif;
+}
+
+/* ================================================ Navbar css ========================================================= */
+.navbar{background-color:   #525252 ;}
+.nav-btn{
+    border: 1px solid #FFFFFF80;
+    border-radius: 20px;
+    background-color: #1D7A8C;
+}
+.a{
+    color: white;
+}
+.nav-item{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+/* ================================================ Footer css ========================================================= */
+
+.GET-OUR-NEWSLETTER {
+    width: 100%;
+    height: 21px;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 17.99px;
+    text-align: center;
+    color: #353548;
+  }
+  .Rounded-Rectangle-649 {
+    width: 25%;
+    height: 40px;
+    font-size: 10px;
+    background: #F4F5F8 0% 0% no-repeat padding-box;
+    border: 1px solid #565656;
+    border-radius: 20px;
+    padding:0px 30px;
+  }
+  .Rounded-Rectangle-649-copy {
+    width: 88px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    background-color: #ff7b6d;
+    padding:0x 30px;
+    margin-left:2%;
+    border:none;
+    outline: none;
+  }
+.footer {
+    text-align: center;
+    padding:5%;
+    justify-content: space-around;
+  }
+  .f_logo {
+    width: 60%;
+    height: 100%;
+    margin-left: 30%;
+  }
+  .f-list{
+    width: 45%;
+    margin: 5% 15 0% 20%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+  }
+  .f_link{
+    text-decoration: none;
+    color:white;
+  }
+  .icons{
+    display: flex;
+    align-items: center;
+  } 
+  .social_icons{
+    width:1.5vw;
+    height:1.5vw;
+  }
+#footer_line{   
+  height:2px;
+  width:90%;
+  margin:1% 5%;
+}
+  
+  
+  
+  
+
