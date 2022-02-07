@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using Helperland;
+@model Helperland.Models.User;
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -9,6 +12,9 @@
     <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel=stylesheet>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="~/css/index.css" />
 </head>
 <body>
@@ -41,10 +47,11 @@
                                     <a class="nav-link" href="#" title="Blog">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#" title="Contact us">Contact us</a>
+                                    <a class="nav-link" asp-action="ContactUs" title="Contact us">Contact us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link border-btn" href="#" title="Login">Login</a>
+                                    <a class="nav-link border-btn" href="" title="Login" data-toggle="modal"
+                                       data-target="#modalLoginForm">Login</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link border-btn" href="#" title="Become a Helper">
@@ -143,10 +150,95 @@
         </div>
     </footer>
 
+    <!-- ==============login modal============= -->
+    <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title" title="Login to your account">Login to your account</h4>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-3">
+                    <form method="post" asp-action="Index">
+                        <div class="md-form mb-3">
+                            <input type="email" id="email" class="form-control validate f_logo" asp-for="Email"  placeholder="Your email">
+                            <i class="fas fa-user"></i>
+
+                        </div>
+
+                        <div class="md-form mb-3">
+                            <i class="fas fa-lock prefix grey-text"></i>
+                            <input type="password" id="password" class="form-control validate" asp-for="Password" placeholder="Your password">
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                        </div>
+
+
+                        <button type="submit" class=" btn-primary btn-block">
+                            Login
+                        </button>
+                        <div class="text-center"><a href="" data-dismiss="modal" data-toggle="modal" data-target="#forgotpassword">Forgot password?</a></div>
+                        <div class="signup-link">Don't have an account?  <a asp-action="UserRegistration">Create an account</a></div>
+
+                    </form>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- forgot password modal -->
+
+    <div class="modal fade" id="forgotpassword" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title" title="Forgot Password">Forgot password</h4>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-3">
+                    <div class="md-form mb-3">
+                        <input type="email" id="defaultForm-email" class="form-control validate" placeholder="Your email">
+                        <i class="fas fa-user"></i>
+                    </div>
+
+                    <button type="button" class=" btn-primary btn-block">
+                        send
+                    </button>
+                    <div class="text-center"><a href="" data-dismiss="modal" data-toggle="modal" data-target="#modalLoginForm"> Login Now</a></div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
     <script type="text/javascript" src="js/general.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
+    </script>
 
 </body>
 </html>
